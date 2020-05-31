@@ -48,17 +48,7 @@ class App extends Component {
     }
 
 
-    if(signs.includes(test[test.length-1]) && signs.includes(test[test.length-2])){
-      console.log('siiii')
-      console.log(this.state.op)
-      console.log(this.removeCharacter('santiago','santiago'.length-2))
-      console.log(this.removeCharacter(this.state.op,this.state.op[this.state.op.length-1]))
-      /* this.setState({
-        op: this.state.op.slice(0,this.state.op.length-2)+this.state.op.slice(this.state.op.length-1,this.state.op.length)
-      }) */
-      /* originalString.slice(0, position - 1) 
-            + originalString.slice(position, originalString.length); */
-    }
+   
     
     if(care===false){
 
